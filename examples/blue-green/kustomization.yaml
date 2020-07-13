@@ -7,3 +7,4 @@ resources:
 - bluegreen-ingress.yaml
 - bluegreen-preview-service.yaml
 - bluegreen-preview-ingress.yaml
+- hooks.yaml
