@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
-  name: bluegreen-demo
+  name: oleg-bluegreen-demo
   labels:
     app: bluegreen-demo
 spec:
