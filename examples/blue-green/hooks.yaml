@@ -4,8 +4,8 @@ metadata:
   name: app-slack-notification
   annotations:
     version: "0.1"
-    argocd.argoproj.io/hook: PostSync
-    argocd.argoproj.io/hook-delete-policy: HookSucceeded
+    argocd.argoproj.io/hook: PreSync
+    argocd.argoproj.io/hook-delete-policy: HookSucceeded 
 spec:
   template:
     spec:
